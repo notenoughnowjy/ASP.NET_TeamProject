@@ -1,0 +1,51 @@
+﻿body {
+    display: flex;
+    margin: 0;
+    background: #f2f2f2;
+    font-family: 'Dotum', sans-serif;
+    position: relative;
+}
+
+.topBar {
+    background-color: #413ECA;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navButton {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 35px;
+    margin-left: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.gray-box {
+    width: 400px; /* 네모의 가로 크기 */
+    height: 600px; /* 네모의 세로 크기 */
+    background-color: #D9D9D9; /* 배경색을 회색으로 설정 */
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-right: 450px;
+}
+
+.box-container {
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ImageSizeStyle{
+    margin: 50px;
+}
