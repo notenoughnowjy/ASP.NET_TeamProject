@@ -23,7 +23,6 @@
         </div>
         <div class="form-group">
             <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-input" placeholder="비밀번호"></asp:TextBox>
-
         </div>
         <div class="form-group">
             <asp:TextBox ID="txtConfirmPassword" runat="server" TextMode="Password" CssClass="form-input" placeholder="비밀번호 확인"></asp:TextBox>

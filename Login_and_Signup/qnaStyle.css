@@ -1,0 +1,45 @@
+﻿body {
+    display: flex;
+    margin: 0;
+    background: #f2f2f2;
+    font-family: 'Dotum', sans-serif;
+    position: relative;
+    padding-top: 100px; /* 상단바 높이보다 약간 큰 값 */
+}
+
+
+.topBar {
+    background-color: #413ECA;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navButton {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 35px;
+    margin-left: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.qnaStyle{
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* 뷰포트 높이에서 상단바 높이를 뺀 값 */
+}

@@ -13,7 +13,7 @@
         <asp:Panel ID="topBar" runat="server" CssClass="topBar">
         <asp:LinkButton ID="homeButton" runat="server" CssClass="navButton">HOME</asp:LinkButton>
         <asp:LinkButton ID="qaButton" runat="server" CssClass="navButton">Q&A</asp:LinkButton>
-        <asp:LinkButton ID="loginButton" runat="server" CssClass="navButton right" OnClick="Load_Mypage">마이페이지</asp:LinkButton>
+        <asp:LinkButton ID="MypageButton" runat="server" CssClass="navButton right" OnClick="Load_Mypage">마이페이지</asp:LinkButton>
         </asp:Panel>
     <div class="box-container">
         <div class="gray-box">
@@ -27,14 +27,26 @@
         </div>
     </div>
     <div class="box-container">
-        <div class="gray-box"></div>
-        <div class="gray-box"></div>
-        <div class="gray-box"></div>
+        <div class="gray-box">
+            <asp:ImageButton id="LineImageButton" runat="server" ImageUrl="Images/line.png" CssClass="ImageSizeStyle" OnClick="lineImageButton_Click" Height="300px" Width="300px"/>
+        </div>
+        <div class="gray-box">
+            <asp:ImageButton id="DeliveryImageButton" runat="server" ImageUrl="Images/delivery.png" CssClass="ImageSizeStyle" OnClick="deliveryImageButton_Click" Height="300px" Width="300px"/>
+        </div>
+        <div class="gray-box">
+            <asp:ImageButton id="CarrtoImageButton" runat="server" ImageUrl="Images/carrot.png" CssClass="ImageSizeStyle" OnClick="carrotImageButton_Click" Height="300px" Width="300px"/>
+        </div>
     </div>
     <div class="box-container">
-        <div class="gray-box"></div>
-        <div class="gray-box"></div>
-        <div class="gray-box"></div>
+        <div class="gray-box">
+            <asp:ImageButton id="TossImageButton" runat="server" ImageUrl="Images/toss.png" CssClass="ImageSizeStyle" OnClick="tossImageButton_Click" Height="300px" Width="300px"/>
+        </div>
+        <div class="gray-box">
+            <asp:ImageButton id="YanoljaImageButton" runat="server" ImageUrl="Images/yanolja.png" CssClass="ImageSizeStyle" OnClick="yanoljaImageButton_Click" Height="300px" Width="300px"/>
+        </div>
+        <div class="gray-box">
+            <asp:ImageButton id="HereImageButton" runat="server" ImageUrl="Images/here.png" CssClass="ImageSizeStyle" OnClick="hereImageButton_Click" Height="300px" Width="300px"/>
+        </div>
     </div>
     </form>
 </body>

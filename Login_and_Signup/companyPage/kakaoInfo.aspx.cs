@@ -11,4 +11,8 @@ public partial class companyPage_kakaoInfo : System.Web.UI.Page
     {
 
     }
+    protected void Load_Mypage(object sender, EventArgs e)
+    {
+
+    }
 }

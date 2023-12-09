@@ -1,0 +1,32 @@
+﻿body {
+    display: flex;
+    margin: 0;
+    background: #f2f2f2;
+    font-family: 'Dotum', sans-serif;
+    position: relative;
+}
+
+
+.topBar {
+    background-color: #413ECA;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navButton {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 35px;
+    margin-left: 20px;
+}
+
+.right {
+    float: right;
+}

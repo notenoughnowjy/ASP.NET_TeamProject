@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="kakaoInfo.aspx.cs" Inherits="companyPage_kakaoInfo" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="hereInfo.aspx.cs" Inherits="companyPage_naverInfo" %>
 
 <!DOCTYPE html>
 
