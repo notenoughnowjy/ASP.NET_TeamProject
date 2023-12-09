@@ -19,4 +19,14 @@ public partial class MyPage : System.Web.UI.Page
     {
         Response.Redirect("MyPage.aspx");
     }
+
+    protected void homeButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("HomePage.aspx");
+    }
+
+    protected void qaButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("QNA.aspx");
+    }
 }

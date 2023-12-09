@@ -5,7 +5,9 @@
     height: 100vh;
     margin: 0;
     background: #f2f2f2;
-    font-family: 'Dotum', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     position: relative;
 }
 
@@ -31,7 +33,9 @@
 .navButton {
     color: white;
     text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 40px;
+    font-weight: bold;
     margin-right: 35px;
     margin-left: 20px;
 }

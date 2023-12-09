@@ -1,8 +1,9 @@
 ﻿body {
     display: flex;
     margin: 0;
-    background: #f2f2f2;
-    font-family: 'Dotum', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     position: relative;
 }
 
@@ -37,6 +38,9 @@
     margin-top: 200px;
     margin-left: 70px;
     margin-right: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box-container {
@@ -48,4 +52,12 @@
 
 .ImageSizeStyle{
     margin: 50px;
+    display: block;
+}
+
+.box-text {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    display: block;
 }

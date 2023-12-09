@@ -53,4 +53,14 @@ public partial class HomePage : System.Web.UI.Page
     {
         Response.Redirect("~/companyPage/hereInfo.aspx");
     }
+
+    protected void homeButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("HomePage.aspx");
+    }
+
+    protected void qaButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("QNA.aspx");
+    }
 }

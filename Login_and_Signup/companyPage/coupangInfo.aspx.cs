@@ -15,4 +15,14 @@ public partial class companyPage_coupangInfo : System.Web.UI.Page
     {
 
     }
+
+    protected void homeButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("../HomePage.aspx");
+    }
+
+    protected void qaButton_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("../QNA.aspx");
+    }
 }
